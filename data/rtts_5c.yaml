@@ -1,0 +1,26 @@
+# Default dataset location is next to /yolov3:
+#   /parent_folder
+#     /datasets
+#       /COCO
+#       /VOC
+#       /ExDark
+#       ...
+#     /yolov3
+
+# PASCAL VOC dataset http://host.robots.ox.ac.uk/pascal/VOC/
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+val: ../datasets/RTTS/images/train/
+val: ../datasets/RTTS/images/val/
+
+
+# number of classes
+# 5 categories in common with RTTS dataset
+nc: 5
+
+# is coco dataset
+is_coco: False
+
+# class names
+# 5 categories in common with RTTS dataset
+names: ['bicycle', 'bus', 'car', 'motorbike', 'person']
