@@ -1,5 +1,5 @@
 # DE-YOLO
-# The code of the paper "DENet: Detection-Driven Enhancement Network for Object Detection under Adverse Weather Condition"
+# PyTorch code for our ACCV2022 paper "DENet: Detection-driven Enhancement Network for Object Detection under Adverse Weather Conditions"
 
 ![image](figs/DE-YOLO.jpg)
 
